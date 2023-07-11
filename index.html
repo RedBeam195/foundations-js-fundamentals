@@ -15,6 +15,31 @@
       const max = 57;
       let actual = max - 13;
       let percentage = actual / max;
+
+      //Functions
+      function add7(number){
+        return number + 7;
+      }
+
+      function multiply(a,b){
+        return a * b;
+      }
+
+      function capitalize(str){
+        let firstLetter = str[0].toUpperCase();
+        let rest = str.slice(1);
+        return result = firstLetter + rest;
+      }
+
+      function lastLetter(str){
+        return str.charAt(str.length-1)
+      }
+
+      console.log(add7(4));
+      console.log(multiply(7,6));
+      console.log(capitalize("bonjour"));
+      console.log(lastLetter("Banana"));
+
     </script>
   </body>
 </html>
